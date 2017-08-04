@@ -246,8 +246,10 @@ c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\Gu
 c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Migrations\20170804165843_validation.Designer.cs
 c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Migrations\GummyBearKingdomTokyoContextModelSnapshot.cs
 c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Models\ApplicationUser.cs
+c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Models\Forum.cs
 c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Models\GummyBearKingdomTokyoContext.cs
 c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Models\Product.cs
+c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Models\UsersPost.cs
 c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
 c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Models\AccountViewModels\ForgotPasswordViewModel.cs
 c:\users\eth0\documents\visual studio 2015\Projects\GummyBearKingdomTokyo\src\GummyBearKingdomTokyo\Models\AccountViewModels\LoginViewModel.cs
