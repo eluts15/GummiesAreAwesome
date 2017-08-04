@@ -8,9 +8,10 @@ using GummyBearKingdomTokyo.Models;
 namespace GummyBearKingdomTokyo.Migrations
 {
     [DbContext(typeof(GummyBearKingdomTokyoContext))]
-    partial class GummyBearKingdomTokyoContextModelSnapshot : ModelSnapshot
+    [Migration("20170804165843_validation")]
+    partial class validation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")
