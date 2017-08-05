@@ -8,6 +8,7 @@ The command below will compile/build the application.
 Type the command: 
 Ctrl + Shft + b
 
+  
 Next, access the package manager console by navigating to View > Other Windows > Package Manager Console
 Type the command: 
 Update-Database -Context GummyBearKingdomTokyoContext
