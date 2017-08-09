@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using GummyBearKingdomTokyo.Data;
 using GummyBearKingdomTokyo.Models;
 using GummyBearKingdomTokyo.Services;
 
@@ -45,11 +44,11 @@ namespace GummyBearKingdomTokyo
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
 
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<GummyBearKingdomTokyoContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddEntityFrameworkStores<GummyBearKingdomTokyoContext>()
                 .AddDefaultTokenProviders();
 
             services.AddMvc();
@@ -58,8 +57,8 @@ namespace GummyBearKingdomTokyo
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
 
-            services.AddDbContext<GummyBearKingdomTokyoContext>(options =>
-                    options.UseSqlServer(Configuration["Data:GummyBearKingdomTokyoContext:ConnectionString"]));
+            //services.AddDbContext<GummyBearKingdomTokyoContext>(options =>
+                   // options.UseSqlServer(Configuration["Data:GummyBearKingdomTokyoContext:ConnectionString"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
